@@ -1,0 +1,72 @@
+table, th, tr{
+    border-bottom: 1px solid;
+}
+select{
+    min-width: 200px;
+}
+a{
+    text-decoration: none;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #ffffff;
+    background-attachment: fixed;
+}
+
+.header{
+    background-color: #fbf9f8;
+    border: #474079 2px dashed;
+    margin-bottom: 30px;
+    padding: 10px;
+}
+.sub-title{
+    display: inline-block;
+    border-top: #474079 2px solid;
+}
+
+.content{
+    /* background-color: #444; */
+    border: #488 dashed 1px;
+    margin: 15px;
+    margin-top: 30px;
+    width: 100%;
+    padding: 20px;
+    padding-left: 50px;
+    color: #444;
+}
+
+.hide{
+    display: none;
+}
+.date{
+    font-size: 14px;
+}
+
+.title-name{
+    font-size: 20px; 
+    color: #444; 
+    text-transform: uppercase;
+}
+hr.title-name{
+    margin-bottom: 20px; 
+    border-color: #407479;
+    margin-left: 5px; 
+    width: 130px;
+}
+.add-menu{
+    margin: 20px 0;
+}
+textarea{
+    resize: vertical;
+}
+.footer{
+    background-color: #407479;
+    display: flex;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    padding-left: 10%;
+}
+.clearfix{
+    content: "";
+    clear: both;
+    display: block;
+}
